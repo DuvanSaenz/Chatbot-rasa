@@ -1,0 +1,15 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhODGnNCWxqLY2FgAiGxxa": "utter_saludar",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhODGnNCWxqJaAKaUlJalF8TDFuE2JBQCOKTcW": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhODGnNCWxqJaAKaUlJalF8TDF5JpCwC2JQK15KUB7CipLMvLzamtjAeL+VSU=": "utter_aprender_python",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhODGnNCWxqJaAKaUlJalF8TDF5JpCwC2JQK15KUB7CipLMvLziHMTuibCpsYCABk+dq0=": "action_listen",
+    "eJylj1EKgCAQRK/iATqBV4mQJRcSbBVdgxDv3kL1049RfzvwZnZmrG1QNSbcDMzsAmlVz8MQrKjVJbzLjCRsyZiEcSSStcrgi4XUOimFGZO54a8pnS4gVrLyJ+68BHrX6Wn6m9rpaDFHtE6mTgfHNpG6": "utter_despedir",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhODGnNCWxqJaAKaUlJalF8TDF5JpCwC2JQK15KUB7CipLMvLziHMTuiZKTSXgxpTU4oLUlEwiAwyuGo85sQCnT60+": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhODGnNCWxqJaAKaUlJalF8TDF5JpCwC2JQK15KUB7shLLEmtrYwE4bVQl": "utter_aprender_java",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhODGnNCWxqJaAKaUlJalF8TDF5JpCwC2JQK15KUB7shLLEolzEaoWQibGAgA7dHOt": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhODGnNCWxqJaAKaUlJalF8TDF5JpCwC2JQK15KUB7shLLEolzEaoWykwk4LqU1OKC1JRMoCdjARRsjro=": "utter_despedir",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhODGnNCWxqJaAKaUlJalF8TDF5JpCwC2JQK15KUB7shLLEolzEaoWykwk4LqU1OKC1JRMIoMKrhqPObEAHHaqPg==": "action_listen"
+  }
+}

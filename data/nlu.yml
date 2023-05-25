@@ -1,0 +1,150 @@
+version: "3.1"
+
+nlu:
+
+- intent: saludar
+  examples: |
+    - ey
+    - Hola
+    - hola
+    - buen día
+    - buenas noches
+    - vamos
+
+- intent: aprender_python
+  examples: |
+    - saber sobre python
+    - programar p
+    - aprender python
+    - python
+  
+- intent: aprender_java
+  examples: |
+    - saber sobre java
+    - programar java
+    - lenguaje de programar java
+    - aprender java
+    - java
+
+- intent: aprender_base_datos
+  examples: |
+    - saber de bases de datos
+    - datos software
+    - bases de datos
+    - aprender sobre bases de datos
+
+- intent: preguntar_asignaturas
+  examples: |
+    - asignaturas que dan
+    - tipo de asignaturas
+    - que puedo aprender
+    - que incluyen las asignaturas
+    - asignaturas
+    - asignatura
+    - que asignaturas 
+
+- intent: preguntar_proyectos
+  examples: |
+    - que proyectos 
+    - puedo participar 
+    - que soluciones 
+    - que oportunidades
+    - hay proyectos
+    - los proyectos 
+    - proyectos
+
+- intent: preguntar_ingenieria_sistemas
+  examples: |
+    - que es ingenieria de sistemas
+    - sistemas 
+    - desarrollo 
+    - mantenimiento
+    - que es la ingenieria de 
+
+- intent: preguntar_laboratorios
+  examples: |
+    - que tipo de salas hay
+    - hay laboratorios
+    - que puedo encontrar en la universidad
+    - equipos de laboratorio
+    - laboratorios
+    - laboratorio
+    - lab
+
+- intent: solicitar_ubicacion_universidad
+  examples: |
+    - donde estan ubicados
+    - a donde puedo dirigirme
+    - donde puedo encontrar la universidad
+    - como puedo llegar a la universidad
+    - ubicacion de la universidad
+    - puedes decirme donde esta la universidad
+    - ubicacion
+
+- intent: solicitar_enlace_moodle
+  examples: |
+    - Cual es el enlace al moodle?
+    - Necesito el enlace al moodle de la universidad
+    - Puedes darme el enlace al moodle?
+    - Quiero acceder al moodle
+    - dónde encuentro la plataforma moodle
+    - moodle
+  
+- intent: solicitar_enlace_siga
+  examples: |
+    - cual es el enlace al siga?
+    - Necesito el enlace al siga de la universidad
+    - Puedes darme el enlace al siga?
+    - quiero acceder al siga
+    - donde encuentro la plataforma siga
+    - siga
+
+- intent: preguntar_conceptos_ingenieria_software
+  examples: |
+    - cuales son los conceptos importantes en ingenieria de software
+    - explícame los conceptos fundamentales de la Ingeniería de Software
+    - qué debo aprender en ingeniería de software
+    - que es la ing de software
+    - cuales son los conceptos de ingenieria de software
+    - conceptos importantes
+
+- intent: preguntar_metodologias_desarrollo
+  examples: |
+    - cuales son las metodologías de desarrollo utilizadas en Ingeniería de Software?
+    - que enfoques de desarrollo se usan en Ingeniería de Software?
+    - explicame sobre las metodologías agiles en el desarrollo de software
+    - desarrollo de software
+    - metodologias de desarrollo
+
+- intent: preguntar_pruebas_software
+  examples: |
+    - que tipos de pruebas se realizan en el desarrollo de software?
+    - cual es la importancia de las pruebas de software?
+    - explicame sobre las pruebas unitarias en el software
+    - que tipos de pruebas se realizan
+    - pruebas de software
+
+- intent: preguntar_arquitectura_software
+  examples: |
+    - que es la arquitectura de software?
+    - explicame sobre los estilos arquitectónicos en Ingeniería de Software
+    - cual es la importancia de la arquitectura en el desarrollo de software?
+    - arquitectura de sofware
+    - puedes decirme que es la arquitectura de software
+
+- intent: dar_gracias
+  examples: |
+    - gracias
+    - muchas gracias
+    - listo 
+  
+
+- intent: despedir
+  examples: |
+    - bueno por
+    - te veo luego
+    - adiós
+    - que tenga un lindo día
+    - Ya nos veremos
+    - adios
+    - hasta luego

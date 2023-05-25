@@ -1,0 +1,112 @@
+version: "3.1"
+
+actions:
+  - action_default_fallback
+
+intents:
+  - saludar
+  - aprender_python
+  - aprender_java
+  - aprender_base_datos
+  - preguntar_asignaturas
+  - preguntar_laboratorios
+  - preguntar_ingenieria_sistemas
+  - preguntar_proyectos
+  - solicitar_ubicacion_universidad
+  - solicitar_enlace_moodle
+  - solicitar_enlace_siga
+  - preguntar_conceptos_ingenieria_software
+  - preguntar_metodologias_desarrollo
+  - preguntar_pruebas_software
+  - preguntar_arquitectura_software
+  - dar_gracias
+  - despedir
+  
+
+
+responses:
+
+  utter_default:
+  - text: "Lo siento, no entendí tu pregunta. ¿Podrías reformularla de otra manera?"
+
+  utter_saludar:
+  - text: "Hola! veo que necesitas mi ayuda, mi nombre es Unibot, que puedo hacer por ti?"
+
+  utter_aprender_python:
+  - text: "Claro que si puedes preguntar lo que desees y te brindaremos informacion!
+           En la siguiente pagina encontraras todo acerca de python como sus liberias,
+           bibliotecas, ventajas y desventajas de usar este lenguaje de programacion.
+           https://www.hostinger.co/tutoriales/java-vs-python"
+  
+  utter_aprender_java:
+  - text: "Claro que si puedes preguntar lo que desees y te brindaremos informacion!
+           En el siguiente vinculo entontraras mas informacion https://www.hostinger.co/tutoriales/java-vs-python"
+  
+  utter_aprender_base_datos:
+  - text: "Una base de datos de software es un sistema que permite almacenar y organizar grandes volúmenes de información de 
+           manera estructurada, para que pueda ser gestionada, recuperada y actualizada de manera eficiente.
+           https://ayudaleyprotecciondatos.es/bases-de-datos/sql/"
+ 
+  utter_preguntar_asignaturas:
+  - text: "Algunas asignaturas que se pueden cursar en la Ingeniería de Sistemas de la Universidad de Ibagué incluyen Programación,
+            Bases de Datos, Redes de Computadoras, Inteligencia Artificial, Sistemas Operativos, Ingeniería de Software, entre otras. 
+            Estas asignaturas proporcionan los conocimientos fundamentales para el desarrollo de sistemas de información."
+
+  utter_preguntar_laboratorios:
+  - text: "La Universidad de Ibagué cuenta con laboratorios equipados para el aprendizaje de Ingeniería de Sistemas. 
+              Los estudiantes tienen acceso a laboratorios de programación, bases de datos, redes, inteligencia artificial y otros 
+              laboratorios especializados, donde pueden poner en práctica los conceptos aprendidos en las asignaturas."
+  
+  utter_preguntar_ingenieria_sistemas:
+  - text: "La Ingeniería de Sistemas en la Universidad de Ibagué es una disciplina que se enfoca en el diseño, desarrollo y
+           mantenimiento de sistemas de información. Los estudiantes aprenden sobre programación, bases de datos, redes de computadoras,
+           inteligencia artificial, entre otros temas relacionados."
+
+  utter_preguntar_proyectos:
+  - text: " Durante la carrera de Ingeniería de Sistemas en la Universidad de Ibagué, los estudiantes tienen la oportunidad de participar
+            en proyectos prácticos. Estos proyectos pueden ser individuales o en equipo, y permiten aplicar los conocimientos adquiridos en
+            situaciones reales. Los proyectos abarcan áreas como el desarrollo de software, la optimización de sistemas y la solución de
+            problemas tecnológicos."
+
+  utter_solicitar_ubicacion_universidad:
+  - text: "Aquí tienes un mapa con la ubicación de la Universidad de Ibagué: Enlace al mapa
+           https://www.google.com/maps/place/Universidad+de+Ibagu%C3%A9/@4.4421186,-75.2378785,14z/data=!4m10!1m2!2m1!1subicacion+universidad+de+ibague!3m6!1s0x8e38c501c29ca757:0x9af91f037e28b32!8m2!3d4.450222!4d-75.1994068!15sCh91YmljYWNpb24gdW5pdmVyc2lkYWQgZGUgaWJhZ3VlkgEScHJpdmF0ZV91bml2ZXJzaXR54AEA!16s%2Fg%2F122whpvr"
+
+  utter_solicitar_enlace_moodle:
+  - text: "Puedes acceder al Moodle de la Universidad de Ibagué en el siguiente enlace: 
+           Enlace al Moodle https://plataforma.unibague.edu.co/"
+
+  utter_solicitar_enlace_siga:
+  - text: "Para acceder al SIGA de la Universidad de Ibagué, puedes visitar: 
+           Enlace al SIGA https://siga.unibague.edu.co/sgacampus/"
+
+  utter_preguntar_conceptos_ingenieria_software:
+  - text: "Algunos conceptos importantes en Ingeniería de Software incluyen el ciclo de vida del desarrollo de software, requerimientos
+           de software, diseño de software, programación orientada a objetos, control de versiones, entre otros."
+
+  utter_preguntar_metodologias_desarrollo:
+  - text: "En Ingeniería de Software, se utilizan diferentes metodologías de desarrollo, como Scrum, Kanban, DevOps, eXtreme Programming,
+           entre otras. Cada metodología tiene sus propias características y enfoques, pero todas buscan mejorar la eficiencia y calidad 
+           del proceso de desarrollo de software."
+
+  utter_preguntar_pruebas_software:
+  - text: "Las pruebas de software son fundamentales en el desarrollo de aplicaciones de calidad. Algunos tipos de pruebas comunes incluyen
+           pruebas unitarias, pruebas de integración, pruebas funcionales y pruebas de rendimiento. Estas pruebas ayudan a identificar y corregir 
+           errores en el software antes de su lanzamiento."
+  
+  utter_preguntar_arquitectura_software:
+  - text: "La arquitectura de software se refiere a la estructura y organización del sistema de software. Se utilizan diferentes estilos 
+           arquitectónicos, como arquitectura de tres capas, arquitectura cliente-servidor, arquitectura basada en microservicios,
+           entre otros, para diseñar sistemas robustos y escalables."
+
+  utter_dar_gracias:
+  - text: "No hay de que! necesitas algo mas?"
+
+  utter_despedir:
+  - text: "Adios, ten un lindo dia. Si necesitas algo mas no dudes en comunicarte con nosotros"
+
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

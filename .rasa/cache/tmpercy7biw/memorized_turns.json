@@ -1,0 +1,10 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhODGnNCWxqLY2FgAiGxxa": "utter_saludar",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhODGnNCWxqJaAKaUlJalF8TDFuE2JBQCOKTcW": "utter_quiere_aprender",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhODGnNCWxqJaAKaUlJalF8TDFlJlSWJqZWpQanwhUmJeSis+0WADwEFUh": "action_listen",
+    "eJylj0EKgCAQRa/iATqBV4kYhpyFYVONoxvx7gnlWqjdf/B48OdSJ1NOoQy4qj/YmvIMYNzJmheCj0rc3BRJmuO5oVoTMSSHUgeVpEoCXf5XuZInIcAmsqPvtcGz3ocNM9a63IYfcjA=": "utter_aprender_java",
+    "eJylj0EKgDAMBL/SB/iCfkUkBJtDRaOmaS+lf7egHjxV9JaF2WHT59KZvAklwFH9ytbk8wDGhay5wuyDElc2BpLKeK5RrQk4R4dSGpaoSgI3/M+yR09CgBVkR99tjc9uP0yY8N2yZ6VlHA4pQpG4": "action_listen"
+  }
+}

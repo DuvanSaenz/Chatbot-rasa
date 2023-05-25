@@ -1,0 +1,222 @@
+version: "3.1"
+
+stories:
+
+- story: saludar, aprender java y dar gracias ,despedir 
+  steps:
+  - intent: saludar
+  - action: utter_saludar
+  - intent: aprender_java
+  - action: utter_aprender_java
+  - intent: dar_gracias
+  - action: utter_dar_gracias
+  - intent: despedir
+  - action: utter_despedir
+
+- story: saludar, aprender python , dar gracias, despedir 
+  steps:
+  - intent: saludar
+  - action: utter_saludar
+  - intent: aprender_python
+  - action: utter_aprender_python
+  - intent: dar_gracias
+  - action: utter_dar_gracias
+  - intent: despedir
+  - action: utter_despedir
+
+- story: saludar, aprender bases de datos, dar gracias y despedir 
+  steps:
+  - intent: saludar
+  - action: utter_saludar
+  - intent: aprender_base_datos
+  - action: utter_aprender_base_datos
+  - intent: dar_gracias
+  - action: utter_dar_gracias
+  - intent: despedir
+  - action: utter_despedir
+
+- story: saludar, preguntar laboratorios dar gracias y despedir 
+  steps:
+  - intent: saludar
+  - action: utter_saludar
+  - intent: preguntar_laboratorios
+  - action: utter_preguntar_laboratorios
+  - intent: dar_gracias
+  - action: utter_dar_gracias
+  - intent: despedir
+  - action: utter_despedir
+
+- story: saludar, preguntar asignaturas, dar gracias y despedir 
+  steps:
+  - intent: saludar
+  - action: utter_saludar
+  - intent: preguntar_asignaturas
+  - action: utter_preguntar_asignaturas
+  - intent: dar_gracias
+  - action: utter_dar_gracias
+  - intent: despedir
+  - action: utter_despedir
+
+- story: saludar, preguntar proyectos, dar gracias y despedir 
+  steps:
+  - intent: saludar
+  - action: utter_saludar
+  - intent: preguntar_proyectos
+  - action: utter_preguntar_proyectos
+  - intent: dar_gracias
+  - action: utter_dar_gracias
+  - intent: despedir
+  - action: utter_despedir
+
+- story: saludar, preguntar sobre ingenieria de sistemas, dar gracias y despedir 
+  steps:
+  - intent: saludar
+  - action: utter_saludar
+  - intent: preguntar_ingenieria_sistemas
+  - action: utter_preguntar_ingenieria_sistemas
+  - intent: dar_gracias
+  - action: utter_dar_gracias
+  - intent: despedir
+  - action: utter_despedir
+
+- story: saludar, preguntar ubicacion de universidad, dar gracias y despedir 
+  steps:
+  - intent: saludar
+  - action: utter_saludar
+  - intent: solicitar_ubicacion_universidad
+  - action: utter_solicitar_ubicacion_universidad
+  - intent: dar_gracias
+  - action: utter_dar_gracias
+  - intent: despedir
+  - action: utter_despedir
+
+- story: saludar, solicitar enlace moodle, dar gracias y despedir 
+  steps:
+  - intent: saludar
+  - action: utter_saludar
+  - intent: solicitar_enlace_moodle
+  - action: utter_solicitar_enlace_moodle
+  - intent: dar_gracias
+  - action: utter_dar_gracias
+  - intent: despedir
+  - action: utter_despedir
+
+- story: saludar, solicitar enlace siga, dar gracias y despedir 
+  steps:
+  - intent: saludar
+  - action: utter_saludar
+  - intent: solicitar_enlace_siga
+  - action: utter_solicitar_enlace_siga
+  - intent: dar_gracias
+  - action: utter_dar_gracias
+  - intent: despedir
+  - action: utter_despedir
+
+- story: saludar, preguntar conceptos de software, dar gracias y despedir 
+  steps:
+  - intent: saludar
+  - action: utter_saludar
+  - intent: preguntar_conceptos_ingenieria_software
+  - action: utter_preguntar_conceptos_ingenieria_software
+  - intent: dar_gracias
+  - action: utter_dar_gracias
+  - intent: despedir
+  - action: utter_despedir
+
+- story: saludar, preguntar metodologias de software, dar gracias y despedir 
+  steps:
+  - intent: saludar
+  - action: utter_saludar
+  - intent: preguntar_metodologias_desarrollo
+  - action: utter_preguntar_metodologias_desarrollo
+  - intent: dar_gracias
+  - action: utter_dar_gracias
+  - intent: despedir
+  - action: utter_despedir
+  
+- story: saludar, preguntar pruebas de software, dar gracias y despedir 
+  steps:
+  - intent: saludar
+  - action: utter_saludar
+  - intent: preguntar_pruebas_software
+  - action: utter_preguntar_pruebas_software
+  - intent: dar_gracias
+  - action: utter_dar_gracias
+  - intent: despedir
+  - action: utter_despedir
+
+- story: saludar, preguntar arquitectura de software, dar gracias y despedir 
+  steps:
+  - intent: saludar
+  - action: utter_saludar
+  - intent: preguntar_arquitectura_software
+  - action: utter_preguntar_arquitectura_software
+  - intent: dar_gracias
+  - action: utter_dar_gracias
+  - intent: despedir
+  - action: utter_despedir
+
+- story: saludar, preguntar todo, dar gracias y despedir 
+  steps:
+  - intent: saludar
+  - action: utter_saludar
+  - intent: aprender_java
+  - action: utter_aprender_java
+  - intent: aprender_python
+  - action: utter_aprender_python
+  - intent: aprender_base_datos
+  - action: utter_aprender_base_datos
+  - intent: preguntar_asignaturas
+  - action: utter_preguntar_asignaturas
+  - intent: preguntar_laboratorios
+  - action: utter_preguntar_laboratorios
+  - intent: preguntar_ingenieria_sistemas
+  - action: utter_preguntar_ingenieria_sistemas
+  - intent: preguntar_proyectos
+  - action: utter_preguntar_proyectos
+  - intent: solicitar_ubicacion_universidad
+  - action: utter_solicitar_ubicacion_universidad
+  - intent: solicitar_enlace_moodle
+  - action: utter_solicitar_enlace_moodle
+  - intent: solicitar_enlace_siga
+  - action: utter_solicitar_enlace_siga
+  - intent: preguntar_conceptos_ingenieria_software
+  - action: utter_preguntar_conceptos_ingenieria_software
+  - intent: preguntar_metodologias_desarrollo
+  - action: utter_preguntar_metodologias_desarrollo
+  - intent: preguntar_pruebas_software
+  - action: utter_preguntar_pruebas_software
+  - intent: preguntar_arquitectura_software
+  - action: utter_preguntar_arquitectura_software
+  - intent: dar_gracias
+  - action: utter_dar_gracias
+  - intent: despedir
+  - action: utter_despedir
+
+- story: saludar, preguntar arquitectura de software, dar gracias, volver a preguntar y despedir 
+  steps:
+  - intent: saludar
+  - action: utter_saludar
+  - intent: preguntar_arquitectura_software
+  - action: utter_preguntar_arquitectura_software
+  - intent: dar_gracias
+  - action: utter_dar_gracias
+  - intent: preguntar_metodologias_desarrollo
+  - action: utter_preguntar_metodologias_desarrollo
+  - intent: despedir
+  - action: utter_despedir
+
+- story: saludar, preguntar arquitectura de software, dar gracias, volver a preguntar y voler a preguntar despedir 
+  steps:
+  - intent: saludar
+  - action: utter_saludar
+  - intent: preguntar_arquitectura_software
+  - action: utter_preguntar_arquitectura_software
+  - intent: dar_gracias
+  - action: utter_dar_gracias
+  - intent: preguntar_metodologias_desarrollo
+  - action: utter_preguntar_metodologias_desarrollo
+  - intent: solicitar_enlace_moodle
+  - action: utter_solicitar_enlace_moodle
+  - intent: despedir
+  - action: utter_despedir
